@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'DinCondensed';
+    src: url(./fonts/din-condensed.ttf);
+}
+
+@font-face {
+    font-family: 'JetBrains';
+    src: url(./fonts/JetBrainsMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Pixelify';
+    src: url(./fonts/PixelifySans-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #ECE0BD;
+    font-family: 'Pixelify';
+    color: #16161F;
+}
+
+
+.toggle-button{
+    background-color: #FF8C37;
+    border: #16161F 2px solid;
+    border-radius: 9999px;
+    min-width: 100px;
+    width: calc(1rem + 6vw);
+    display: flex;
+    align-items: start;
+    padding: 0.5rem 0.3rem;
+    height: 3vw;
+    min-height: 40px;    
+}
+
+.toggle-img:hover {
+    cursor: pointer;
+}
+
+.toggle-img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
