@@ -1,16 +1,19 @@
 .profile-description-container{
     width: 400px;
+    overflow: hidden;
 }
 
 .profile-description-belt{
-    width: 100%;
+    width: max-content;
     display: flex;
     white-space: nowrap;
-    overflow: hidden;
     animation: scroll infinite 6s linear;
 }
 
 .profile-description{
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding-right: 2px;
 }
 
 @keyframes scroll {
