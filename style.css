@@ -1,0 +1,24 @@
+.profile-description-container{
+    width: 400px;
+}
+
+.profile-description-belt{
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll infinite 6s linear;
+}
+
+.profile-description{
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
