@@ -53,22 +53,47 @@
         transition: transform ease-in 0.2s;
     }
 
+    .normal-container{
+        padding: 0;
+        margin: 0;
+    }
+    .profile-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: auto;
+        width: 20%;
+        padding-left: 1vw;
+    }
+
+    .profile-picture{
+        width: 100%;
+    }
+
     .profile-description-container{
-        width: 400px;
+        width: 80%;
+        align-items: center;
+        display: flex;
         overflow: hidden;
     }
 
     .profile-description-belt{
         width: max-content;
+        align-items: center;
         display: flex;
+        margin: auto;
+        text-align: center;
         white-space: nowrap;
-        animation: scroll infinite 6s linear;
+        animation: scroll infinite 5s linear;
     }
 
     .profile-description{
         flex-shrink: 0;
+        width: max-content;
         white-space: nowrap;
         padding-right: 2px;
+        font-size: 1.2rem;
     }
 
     @keyframes scroll {
