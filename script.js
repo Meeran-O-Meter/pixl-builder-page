@@ -9,12 +9,12 @@ toggleImg.addEventListener("click", () => {
         document.getElementById("normalContainer").style.display = "none";
         document.getElementById("pixlContainer").style.display = "block";
         document.querySelector("link[rel='stylesheet']").setAttribute('href', './pixl-style.css')
+        toggleImg.classList.add("on")
     } else {
         document.getElementById("normalContainer").style.display = "block";
         document.getElementById("pixlContainer").style.display = "none";
-        toggleImg.classList.remove("active")
-        toggleButton.classList.remove("active")
         document.querySelector("link[rel='stylesheet']").setAttribute('href', './style.css')
+        toggleImg.classList.add("off")
     };
 
 

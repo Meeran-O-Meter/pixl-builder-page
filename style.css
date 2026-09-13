@@ -16,7 +16,7 @@
 
     
     body {
-        margin-top: 2vw;
+        margin-top: 1vw;
         font-family: 'DinCondensed';
         background-color: #0D0D0D;
         color: #FDF6EC;
@@ -27,12 +27,14 @@
     .toggle-button{
         border: #E5A93C solid 2px;
         border-radius: 9999px;
-        width: calc(1rem + 6vw);
+        margin-right: 0;
+        margin-left: auto;
+        width: calc(1rem + 2vw);
+        height: 1vw;
         min-width: 100px;
         display: flex;
         align-items: start;
         padding: 0.5rem 0.3rem;
-        height: 3vw;
         min-height: 40px;
     }
 
@@ -44,6 +46,11 @@
         height: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .toggle-img.off{
+        transform: translateX(0);
+        transition: transform ease-in 0.2s;
     }
 
     .profile-description-container{

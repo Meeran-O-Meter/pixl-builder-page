@@ -14,6 +14,7 @@
 }
 
 body{
+    margin-top: 1vw;
     background-color: #ECE0BD;
     font-family: 'Pixelify';
     color: #16161F;
@@ -21,16 +22,18 @@ body{
 
 
 .toggle-button{
+    margin-left: auto;
+    margin-right: 0;
     background-color: #FF8C37;
     border: #16161F 2px solid;
     border-radius: 9999px;
+    width: calc(1rem + 2vw);
+    height: 1vw;
     min-width: 100px;
-    width: calc(1rem + 6vw);
     display: flex;
     align-items: start;
     padding: 0.5rem 0.3rem;
-    height: 3vw;
-    min-height: 40px;    
+    min-height: 40px; 
 }
 
 .toggle-img:hover {
@@ -42,3 +45,10 @@ body{
     padding: 0;
     height: 100%;
 }
+
+.toggle-img.on{
+    transform: translateX(150%);
+    transition: transform ease-in 0.2s;
+
+}
+
