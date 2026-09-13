@@ -13,13 +13,16 @@
     src: url(./fonts/PixelifySans-VariableFont_wght.ttf);
 }
 
+*{
+    cursor: url(/assets/cursor.svg) 0 0, default;
+}
+
 body{
     margin-top: 1vw;
     background-color: #ECE0BD;
     font-family: 'Pixelify';
     color: #16161F;
 }
-
 
 .toggle-button{
     margin-left: auto;
@@ -37,7 +40,7 @@ body{
 }
 
 .toggle-img:hover {
-    cursor: pointer;
+    cursor: url(./assets/pointer.svg) 16 16, auto;
 }
 
 .toggle-img{
