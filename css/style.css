@@ -5,9 +5,34 @@
 @font-face {
     font-family: "Din Condensed";
     src: url(./fonts/din-condensed-regular.ttf);
-    color: #FDF6EC;
 }
 
 body{
     background-color: #0D0D0D;
+    color: #FDF6EC;
+}
+
+/** Page 1 I guess **/
+.page-1{
+    padding-top: 3vh;
+    display: flex;
+}
+
+.profile-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22%;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+.profile-img{
+    width: 100%;
+    padding-bottom: 0.2rem;
+}
+
+.marquee-text{
+    width: 100%;
+    font-size: 1.2rem;
 }

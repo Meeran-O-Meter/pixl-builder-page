@@ -35,3 +35,9 @@
 .toggle-exterior.toggle-exterior.pixl-enabled .toggle-interior{
     transform: translateX(3.7rem) ;
 }
+
+/** HELL YEAH, TOGGLE BUTTON DONE! **/
+
+body{
+    padding-top: 2vh;
+}
