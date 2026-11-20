@@ -1,8 +1,8 @@
-/** Toggle Button, Disabled **/
+/** Toggle Button, Disabled (Original Mode) **/
 .toggle-exterior{
     border: solid 2.5px #E5A93C;
     border-radius: 999px;
-    width: 6%;
+    width: 7.5rem;
     height: fit-content;
     padding: 0.2rem 0.2rem 0.2rem 0.2rem;
     margin-right: 1rem;
@@ -19,4 +19,19 @@
 
 .toggle-interior:hover{
     cursor: pointer;
+}
+
+/** Toggle Button, Enabled (Pixl Mode my god these names are getting confusing lowk) **/
+.toggle-exterior.pixl-enabled{
+    border-color: #16161F;
+    background-color: #FF8C37;
+
+    img{
+        border: solid 2px #16161F;
+        border-radius: 999px;
+    }
+}
+
+.toggle-exterior.toggle-exterior.pixl-enabled .toggle-interior{
+    transform: translateX(3.7rem) ;
 }
