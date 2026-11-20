@@ -107,7 +107,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: 2%;
-    margin-top: 12%;
+    margin-top: 3%;
 }
 
 .title-2{
@@ -117,11 +117,13 @@ body{
 .project-container{
     display: flex;
     flex-direction: row;
+    margin-bottom: 4vh;
 }
 
 .project-profile{
     display: flex;
     flex-direction: column;
+    width: 15%;
 }
 
 .project-img{
@@ -167,7 +169,7 @@ body{
 }
 
 .project-text{
-    width: 45%;
+    width: 85%;
     margin-top: 0;
     margin-left: 0;
     padding-left: 1.2rem;
@@ -184,6 +186,14 @@ body{
     margin: 0;
     padding: 0;
     padding-left: 1rem;
+}
+
+.project-line{
+    width: 50%;
+    border: 1px solid #3A2F1C;
+    border-radius: 999px;
+    margin: auto auto 0 auto;
+    justify-self: center;
 }
 
 
