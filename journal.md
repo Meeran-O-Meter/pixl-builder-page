@@ -149,3 +149,24 @@ Meeran
 
 
 # *Till here, hackatime tracked 7.9 hours btw!*
+
+
+
+## 22 November 2026
+## YSWS Section (Page 3)
+
+-Changed the hr length under the last project to a wider one
+-Added divs for page 3
+-Page 3 title 
+-YSWS containers, I swear this was so fun
+-YSWS dates, what I bought, and hours logged
+-Buttons for the YSWS websites
+-It was really easy to get the containers altered for each YSWS, since they followed the same pattern hehe
+-hr tag at the end 
+
+_*Hackatime so far: 8.9 hours*_
+
+Next up...Page 4: Upcoming projects! Hell yeah
+
+Love, 
+Meeran
