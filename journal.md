@@ -152,7 +152,6 @@ Meeran
 
 
 
-## 22 November 2026
 ## YSWS Section (Page 3)
 
 -Changed the hr length under the last project to a wider one
@@ -161,12 +160,36 @@ Meeran
 -YSWS containers, I swear this was so fun
 -YSWS dates, what I bought, and hours logged
 -Buttons for the YSWS websites
+# 22 November 2026
 -It was really easy to get the containers altered for each YSWS, since they followed the same pattern hehe
 -hr tag at the end 
+![image](https://cdn.hackclub.com/01a207b9-8a20-7625-9c46-3c6a33178b12/paste-1795425927274.png)
 
 _*Hackatime so far: 8.9 hours*_
 
 Next up...Page 4: Upcoming projects! Hell yeah
 
 Love, 
+Meeran
+
+
+# 23 November 2026
+## Upcoming Projects Section (Page 4)
+
+This will be fun, I said. It's easy, I said. We'll just reuse the styling and HTML structure from the project divs, I said.
+DAMMIT
+I thought, changing the profile divs to be after the project description would switch the profile box to the right, and problem wouldv'e been solved. Unfortunately for me, this was in fact, not the case. I had to tweak the already existing code for the project section, so it worked both for the current projects and previous project sections. Why didn't I make the design responsive from the start: A question I ask myself every single time. Anyways, here's the summary.
+-Re-using the divs and HTML from the Past project section (Page 2) for the current projects one (Page 4), iterating the required parts
+-Added styling using the style tag on Current Project Elements only
+-Re-iterated existing Previous Project Styling so it can be used for both sections. The previous version used unconstrained flex items with no set widths, making the profile div change widths based on the width of the text description. So I added a locked profile div width, and made the text area flexible in width instead; the latter therefore filling up whatever space left over. Hell yeah.
+-Locked the buttons and changed the cursor to not-allowed for the first 2 projects since they haven't been started yet.
+-Left Meeran's YSWS github open and changed its links since I'm currently working on it, the website's still disabled though, I haven't hosted it yet.
+-Added some hr tags under each project container and at the end
+
+![image](https://cdn.hackclub.com/01a207ce-e0b3-70c1-b71d-b982900dbdb4/paste-1795427325592.png)
+![image](https://cdn.hackclub.com/01a207cf-172a-7772-9f58-8a9468e6ff25/paste-1795427341520.png)
+
+That's it! Current Project section's done! Just one more left for the normal mode, then I can get started on the pixl version, hehehehe
+
+Love,
 Meeran
