@@ -287,10 +287,11 @@ body{
     background-color: transparent;
     border: solid 2px #614A1F;
     aspect-ratio: 2;
-    display: block;
     margin: auto;
     color: #E5A93C;
     font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .contact-long-box::placeholder{
@@ -300,5 +301,52 @@ body{
 .send-button{
     display: block;
     margin: auto;
-    margin-top: 2vh;
+    margin-top: 5vh;
+}
+
+.rory-div{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    
+}
+
+.letter-div{
+    display: flex;
+    margin-bottom: 3rem;
+
+}
+
+.letter-img{
+    width: auto;
+    margin:  0 3rem;
+}
+
+.letter-title{
+    color: #E5A93C;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.letter-description{
+    margin: 0;
+    padding: 0;
+    color: #56482D;
+    font-size: 1.6rem;
+}
+
+.thanks-sent{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #56482D;
+}
+
+.rory-description{
+    font-size: 1.5rem;
+    color: #56482D;
+    margin-left: 2rem;
+    text-align: center;
 }

@@ -223,3 +223,18 @@ Here's what I got done
 
 That's side 1 of contact section done!
 ![image](https://cdn.hackclub.com/01a2119a-0934-79a4-a7c3-80a7ed7c4c8b/paste-1795591635212.png)
+
+
+# 25 November 2026
+## Contact Section Part 3
+
+Damn.
+Anyhow, here's the last part of what I did for the Original version
+1. Style the right hand side of the contact page, with a message that apppears once the letter is sent.
+2. Make some adjustments to the the action="" on the contact page. Initially, the user was redirected to a formspree page where the letter's sending success would be shown, but I adjusted it through JavaScript by cancelling the redirection and making sure the letter returns a success meessage before the display styling on the container shows up: hence making sure the right hand side of the contact page only appears after a letter's sent in (successfully).
+3. Which brings me to the third thing: adding a counter. The letter on the website is managed by Rory, an Owl (Harry potter fan, anyone?). I have a Thank Rory button there, so I made sure to increment a set counter once it's pressed using JS. 
+4. I wanted to make the thanks counter non-volatile, as in it won't dissapear after a reload, so I used localStorage to make it so.
+5. I also forgot the text introducing Rory at the beginning, so I added it at the bottom; along with moving the button out of the letter outline (form element). Cool stuff, I really learnt a lot.
+
+And that's it! 
+Next up, the Pixl Version. 

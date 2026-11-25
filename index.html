@@ -160,25 +160,34 @@
         <div class="page-2">
             <p class="title-2">Contact Me</p>
             <div class="contact-div">
-                <div class="contact-form-div">
-                    <form action="https://formspree.io/f/mwlowzwa" method="POST" class="contact-form">
-                        <p class="contact-title">contact form</p> <br>
-                        <p class="contact-description">To my dearest Meeran, </p> <br>
-                        <span class="contact-description">I, </span> 
-                        <input required type="text" name="name" class="contact-box">
-                        <span class="contact-description">, contact you in order to discuss the matter of </span>
-                        <input required type="text" name="title" class="contact-box"> <br>
-                        <textarea required name="message" placeholder="psst..psttt...whispers details" class="contact-long-box"></textarea>
-                        <button class=" send-button button-1" type="submit">Send</button>
-                    </form>
+                <div class="contact-rory-div">
+                    <div class="contact-form-div">
+                        <form id="contactForm" action="https://formspree.io/f/mwlowzwa" method="POST" class="contact-form">
+                            <p class="contact-title">contact form</p> <br>
+                            <p class="contact-description">To my dearest Meeran, </p> <br>
+                            <span class="contact-description">I, </span> 
+                            <input required type="text" name="name" class="contact-box">
+                            <span class="contact-description">, contact you in order to discuss the matter of </span>
+                            <input required type="text" name="title" class="contact-box"> <br>
+                            <textarea required name="message" placeholder="psst..psttt...whispers details" class="contact-long-box"></textarea>
+                        </form>
+                    </div>
+                    <button form="contactForm" class=" send-button button-1" type="submit">Send the letter</button>
+                    <p class="rory-description">Rory the Owl manages the letters here. <br> Thank him once the you send the letter.</p>
                 </div>
 
-                <div class="rory-div">
-                    <img src="./assets/letter-icon.svg" alt="Letter Icon" class="letter-icon">
-                    <p class="letter-title">Letter sent!</p>
-                    <p class="letter-description">Don’t forget to thank Rory for his hard work</p>
-                    <button class="button-1">Thank Rory</button>
-                    <p class="thanks-sent">10 thanks sent so far</p>
+                <div style="display: none;" id="roryDiv" class="rory-div">
+                    <div class="letter-div">
+                        <img src="./assets/letter-icon.svg" alt="Letter Icon" class="letter-img">
+                        <div class="letter-description-div">
+                            <p class="letter-title">Letter sent!</p>
+                            <p class="letter-description">Don’t forget to thank Rory for his hard work</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <button id="thanksButton" style="width: 70%; margin: auto; display: block;" class="button-1">Thank Rory</button>
+                    <p id="thanksText" class="thanks-sent"></p>
                 </div>
             </div>
             
