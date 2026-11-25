@@ -193,3 +193,33 @@ That's it! Current Project section's done! Just one more left for the normal mod
 
 Love,
 Meeran
+
+
+
+# 24 November 2026
+## Contact Me Section (Page 5)
+
+Finally, the last section muehehehe
+Here's what I got done 
+1. 2 divs for the side by side contact form and links
+2. Applied styling 
+3. Section Title
+4. Set up the form using formspree.io, it was super easy!
+5. Created 3 inputs, name, title and message
+6. Started styling, and gave up for the day hehe
+
+
+# 25 November 2026
+## Contact Me Section Part 2
+1. Created the second side of the contact div
+2. Added the icon, text, button and counter for thanks sent so far
+3. Using flex to distribute widths
+4. Changed the long message input bar to a textarea
+5. Styled the input bars
+6. Styled the contact form outline (took a while man)
+7. Added some placeholders to textarea
+8. Used the pre-existing button styles for the thank rory buttona
+9. Created another button class for the send button in the form
+
+That's side 1 of contact section done!
+![image](https://cdn.hackclub.com/01a2119a-0934-79a4-a7c3-80a7ed7c4c8b/paste-1795591635212.png)

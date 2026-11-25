@@ -112,7 +112,7 @@ body{
 }
 
 .title-2{
-    font-size: 3.5rem;
+    font-size: 3.8rem;
 }
 
 .project-container{
@@ -244,6 +244,61 @@ body{
 
 
 
+/** Contact Section **/
+.contact-div{
+    display: flex;
+    gap: 10vw;
+}
 
+.contact-form-div{
+    border: solid 2px #E5A93C;
+    outline: solid 2px #E5A93C;
+    outline-offset: 4px;
+    flex: 0.8;
+    padding: 3rem 2rem;
+}  
 
+.rory-div{
+    flex: 1;
+}
 
+.contact-title{
+    font-size: 1.5rem;
+    color: #E5A93C;
+    text-decoration: underline;
+}
+
+.contact-description{
+    color: #E5A93C;
+    font-size: 1.5rem;
+}
+
+.contact-box{
+    background-color: transparent;
+    border: solid 2px #614A1F;;
+    transform: translateY(-0.4rem);
+    color: #E5A93C;
+    width: fit-content;
+    font-size: 1.2rem;
+}
+
+.contact-long-box{
+    width: 100%;
+    background-color: transparent;
+    border: solid 2px #614A1F;
+    aspect-ratio: 2;
+    display: block;
+    margin: auto;
+    color: #E5A93C;
+    font-size: 1.5rem;
+}
+
+.contact-long-box::placeholder{
+    color: #614A1F;
+}
+
+.send-button{
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+}
