@@ -236,5 +236,68 @@ Anyhow, here's the last part of what I did for the Original version
 4. I wanted to make the thanks counter non-volatile, as in it won't dissapear after a reload, so I used localStorage to make it so.
 5. I also forgot the text introducing Rory at the beginning, so I added it at the bottom; along with moving the button out of the letter outline (form element). Cool stuff, I really learnt a lot.
 
+
+![](https://cdn.hackclub.com/01a216aa-b6c1-7882-84c5-f8cf1181750e/paste-1795676613260.png)
+![image](https://cdn.hackclub.com/01a216ab-822b-7569-b117-17a16729daae/paste-1795676667321.png)
+
 And that's it! 
 Next up, the Pixl Version. 
+
+
+# 26 November 2026
+## Pixl Version: Page 1 About Me
+
+*-HTML:*
+1. Header
+2. Div inside header for the text box
+3. Text inside header..div..box YOU GET IT
+
+I planned to use the previous HTML structure from the original verison, but honestly, it seemed a little too much work to change it one by one; so I deleted the copies.
+
+*-CSS:*
+1. Initial setup: body background color, font imports, and such
+2. Styling the header, making it full width and centering its content. I also made sure to make it none-clickable (pointer-events: none), so it didn't interfere with the toggle. Also added a border bottom, so it looks like an <hr> tag
+3. Header DIV, which contains that header text, was set to a percentage width, since it was otherwise interfering with the toggle button on the left.
+
+That's it for today. 
+![image](https://cdn.hackclub.com/01a21d93-0b6e-7e14-9cf6-1755a92c2c0d/paste-1795792503593.png)
+
+I'll try to get more done in the next one.
+
+Love,
+Meeran
+
+
+# 28 November 2026
+## Pixl Version: Page 1 About Me
+
+And there goes my five day streak :cryin: 
+Anyhow, the early bird catches the worm, and it's 7:45AM so, nomnom
+
+1. Toggle Button: I accidentally added a 2vh padding-top to the body in base.css, which was causing misalignments with my header. I removed that, and made the toggle's position abosolute with a higher index so it doesn't interfere with the header.
+
+*-HTML:*
+1. A new div for the about me page
+2. Profile div for the entire profile section (profile pic + text description)
+3. Profile img div for the image and date joined
+4. <ul> for the text description
+5. <p> and <span> for the text title
+6. <p> for the date joined
+
+*-CSS:*
+1. Styling the profile div to flex so I can align the profile img and text side by side
+2. Add a little padding and margin so the exterior's well aligned 
+3. Profile Img Div: Make its children centered and style the exterior with the pixl box shape
+4. Making the profile div and text description shares of the total width using flex: 1 (or 3) so it stays as responsive as I can make it
+5. Making the profile image centered
+6. Styling the profile img div so that its aspect ratio and max widths are kind of responsive
+7. Styling the titles, and highlighting the neccessary parts with <span> 
+8. Styling the <ul> and the bottom text under the profile pic
+9. Styling the <hr> tag at the bottom
+
+That's about it! Next Section's up: My Crew (ahh this is kinda making me cringe)
+![image](https://cdn.hackclub.com/01a22076-cda9-70de-9c0f-71e99a35f290/paste-1795840985757.png)
+
+
+Love,
+Meeran

@@ -1,5 +1,9 @@
 /** Toggle Button, Disabled (Original Mode) **/
 .toggle-exterior{
+    position: fixed;
+    top: 1.5rem;
+    right: 1rem;
+    z-index: 100;
     border: solid 2.5px #E5A93C;
     border-radius: 999px;
     width: 7.5rem;
@@ -39,5 +43,6 @@
 /** HELL YEAH, TOGGLE BUTTON DONE! **/
 
 body{
-    padding-top: 2vh;
+    padding: 0;
+    margin: 0;
 }
